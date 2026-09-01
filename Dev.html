@@ -1,534 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVANEIOS — Biblioteca Digital do Pensamento</title>
-    <style>
-        :root {
-            --bg-primary: #0d0f12;
-            --bg-secondary: #14171d;
-            --bg-card: #1a1e26;
-            --text-primary: #e6e8ec;
-            --text-secondary: #9aa0a6;
-            --accent: #c9a96e;
-            --accent-muted: rgba(201, 169, 110, 0.15);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --font-serif: 'Newsreader', 'Georgia', 'Garamond', serif;
-            --font-sans: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
-            --reader-bg: #0d0f12;
-            --reader-text: #e6e8ec;
-            --max-width: 1200px;
-            --transition: all 0.25s ease;
-        }
+    <link ref="stylesheet" href="style.css">
 
-        [data-theme="light"] {
-            --bg-primary: #f7f5f0;
-            --bg-secondary: #eeebe3;
-            --bg-card: #ffffff;
-            --text-primary: #1c1e21;
-            --text-secondary: #5f6368;
-            --accent: #9e7938;
-            --accent-muted: rgba(158, 121, 56, 0.12);
-            --border-color: rgba(0, 0, 0, 0.09);
-            --reader-bg: #f7f5f0;
-            --reader-text: #1c1e21;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            font-family: var(--font-sans);
-            line-height: 1.6;
-            overflow-x: hidden;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        /* Header & Navigation */
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-            background: rgba(13, 15, 18, 0.85);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border-color);
-            transition: var(--transition);
-        }
-
-        [data-theme="light"] header {
-            background: rgba(247, 245, 240, 0.85);
-        }
-
-        .nav-container {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.2rem 2rem;
-        }
-
-        .logo {
-            font-family: var(--font-serif);
-            font-size: 1.4rem;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--text-primary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .logo span {
-            color: var(--accent);
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 1.8rem;
-        }
-
-        nav a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.88rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            transition: var(--transition);
-            cursor: pointer;
-        }
-
-        nav a:hover, nav a.active {
-            color: var(--accent);
-        }
-
-        .nav-controls {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .btn-icon {
-            background: transparent;
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: var(--transition);
-        }
-
-        .btn-icon:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
-
-        /* Views Layout */
-        main {
-            margin-top: 80px;
-            min-height: calc(100vh - 80px - 100px);
-        }
-
-        .view-section {
-            display: none;
-            padding: 3rem 2rem;
-            max-width: var(--max-width);
-            margin: 0 auto;
-            animation: fadeIn 0.4s ease;
-        }
-
-        .view-section.active {
-            display: block;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(6px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 6rem 0 4rem 0;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .hero h1 {
-            font-family: var(--font-serif);
-            font-size: 3.5rem;
-            font-weight: 400;
-            letter-spacing: 0.08em;
-            margin-bottom: 1rem;
-        }
-
-        .hero p {
-            font-family: var(--font-serif);
-            font-size: 1.25rem;
-            color: var(--text-secondary);
-            font-style: italic;
-            line-height: 1.8;
-            margin-bottom: 2.5rem;
-        }
-
-        .hero-divider {
-            width: 60px;
-            height: 1px;
-            background: var(--accent);
-            margin: 0 auto 2.5rem auto;
-        }
-
-        .hero-actions {
-            display: flex;
-            justify-content: center;
-            gap: 1.2rem;
-        }
-
-        .btn {
-            padding: 0.8rem 1.8rem;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            cursor: pointer;
-            text-decoration: none;
-            transition: var(--transition);
-            border: 1px solid var(--accent);
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: #0d0f12;
-            font-weight: 500;
-        }
-
-        .btn-primary:hover {
-            opacity: 0.9;
-        }
-
-        .btn-outline {
-            background: transparent;
-            color: var(--text-primary);
-            border-color: var(--border-color);
-        }
-
-        .btn-outline:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
-
-        /* Cards & Grid */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            padding: 2rem;
-            border-radius: 6px;
-            transition: var(--transition);
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .card:hover {
-            transform: translateY(-4px);
-            border-color: var(--accent);
-        }
-
-        .card-meta {
-            font-size: 0.8rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 0.8rem;
-        }
-
-        .card-title {
-            font-family: var(--font-serif);
-            font-size: 1.4rem;
-            line-height: 1.35;
-            margin-bottom: 1rem;
-            font-weight: 500;
-        }
-
-        .card-desc {
-            color: var(--text-secondary);
-            font-size: 0.92rem;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            border-top: 1px solid var(--border-color);
-            padding-top: 1rem;
-        }
-
-        /* Leitor Reader View */
-        .reader-container {
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 2rem 0;
-            transition: var(--transition);
-        }
-
-        .reader-header {
-            text-align: center;
-            margin-bottom: 3.5rem;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 2.5rem;
-        }
-
-        .reader-meta {
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-size: 0.85rem;
-            margin-bottom: 1rem;
-        }
-
-        .reader-title {
-            font-family: var(--font-serif);
-            font-size: 2.5rem;
-            line-height: 1.25;
-            font-weight: 400;
-            margin-bottom: 1rem;
-        }
-
-        .reader-subtitle {
-            font-family: var(--font-serif);
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            font-style: italic;
-        }
-
-        .reader-content {
-            font-family: var(--font-serif);
-            font-size: 1.15rem;
-            line-height: 1.85;
-            color: var(--reader-text);
-        }
-
-        .reader-content p {
-            margin-bottom: 1.8rem;
-            text-align: justify;
-            hyphens: auto;
-        }
-
-        .reader-content h2, .reader-content h3 {
-            font-family: var(--font-sans);
-            font-size: 1.25rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            margin: 3rem 0 1.2rem 0;
-            color: var(--accent);
-            border-bottom: 1px solid var(--accent-muted);
-            padding-bottom: 0.4rem;
-        }
-
-        blockquote {
-            border-left: 2px solid var(--accent);
-            padding-left: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: var(--text-secondary);
-        }
-
-        /* Reader Toolbar */
-        .reader-tools {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            padding: 0.6rem 1rem;
-            border-radius: 30px;
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-            z-index: 900;
-        }
-
-        .reader-tools button {
-            background: transparent;
-            border: none;
-            color: var(--text-primary);
-            cursor: pointer;
-            font-size: 0.9rem;
-        }
-
-        .reading-progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: var(--accent);
-            width: 0%;
-            z-index: 1001;
-            transition: width 0.1s ease;
-        }
-
-        /* Zen Mode */
-        body.zen-mode header,
-        body.zen-mode footer,
-        body.zen-mode .reader-tools {
-            opacity: 0.15;
-            transition: opacity 0.3s;
-        }
-        body.zen-mode header:hover,
-        body.zen-mode .reader-tools:hover {
-            opacity: 1;
-        }
-
-        /* Interactive Mindmap (Canvas) */
-        #map-container {
-            width: 100%;
-            height: 600px;
-            background: var(--bg-secondary);
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            position: relative;
-            overflow: hidden;
-        }
-
-        canvas {
-            width: 100%;
-            height: 100%;
-            display: block;
-        }
-
-        /* Timeline */
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 2rem auto;
-            padding-left: 2rem;
-            border-left: 2px solid var(--border-color);
-        }
-
-        .timeline-item {
-            position: relative;
-            margin-bottom: 2.5rem;
-            cursor: pointer;
-        }
-
-        .timeline-dot {
-            position: absolute;
-            left: -2.45rem;
-            top: 0.2rem;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: var(--accent);
-            border: 3px solid var(--bg-primary);
-        }
-
-        .timeline-date {
-            font-size: 0.82rem;
-            color: var(--accent);
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-
-        .timeline-title {
-            font-family: var(--font-serif);
-            font-size: 1.25rem;
-            margin: 0.3rem 0;
-        }
-
-        /* Search Overlay */
-        .search-modal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
-            backdrop-filter: blur(8px);
-            z-index: 2000;
-            display: none;
-            align-items: flex-start;
-            justify-content: center;
-            padding-top: 10vh;
-        }
-
-        .search-modal.active {
-            display: flex;
-        }
-
-        .search-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            width: 90%;
-            max-width: 680px;
-            border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 16px 40px rgba(0,0,0,0.5);
-        }
-
-        .search-input {
-            width: 100%;
-            background: transparent;
-            border: none;
-            border-bottom: 2px solid var(--accent);
-            color: var(--text-primary);
-            font-size: 1.2rem;
-            padding: 0.8rem 0;
-            outline: none;
-            font-family: var(--font-sans);
-        }
-
-        .search-results {
-            max-height: 50vh;
-            overflow-y: auto;
-            margin-top: 1.5rem;
-        }
-
-        .search-result-item {
-            padding: 1rem;
-            border-bottom: 1px solid var(--border-color);
-            cursor: pointer;
-            transition: var(--transition);
-        }
-
-        .search-result-item:hover {
-            background: var(--accent-muted);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2.4rem; }
-            nav ul { display: none; } /* Simplified mobile nav */
-            .reader-title { font-size: 1.8rem; }
-            .grid { grid-template-columns: 1fr; }
-        }
-    </style>
 </head>
+
 <body>
 
     <div class="reading-progress-bar" id="progressBar"></div>
@@ -562,7 +42,8 @@
             <div class="hero">
                 <div class="card-meta">Coleção Autoral de Ensaios</div>
                 <h1>DEVANEIOS</h1>
-                <p>Uma plataforma dedicada à investigação filosófica, civilizacional e existencial. Pensamento autoral preservado em sua forma original.</p>
+                <p>Uma plataforma dedicada à investigação filosófica, civilizacional e existencial. Pensamento autoral
+                    preservado em sua forma original.</p>
                 <div class="hero-divider"></div>
                 <div class="hero-actions">
                     <button class="btn btn-primary" onclick="navigateTo('biblioteca')">Explorar Biblioteca</button>
@@ -576,8 +57,10 @@
 
         <!-- VIEW: BIBLIOTECA -->
         <section id="biblioteca" class="view-section">
-            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Biblioteca Intelectual</h1>
-            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Acervo completo de reflexões e ensaios organizados por séries autorais.</p>
+            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">
+                Biblioteca Intelectual</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Acervo completo de reflexões e ensaios
+                organizados por séries autorais.</p>
 
             <div style="display:flex; gap:1rem; margin-bottom: 2rem;">
                 <button class="btn btn-outline active" onclick="filterSeries('all', this)">Todas as Séries</button>
@@ -591,13 +74,15 @@
         <!-- VIEW: LEITOR DE DEVANEIOS -->
         <section id="leitor" class="view-section">
             <div class="reader-container">
-                <button class="btn btn-outline" onclick="navigateTo('biblioteca')" style="margin-bottom: 2rem;">← Voltar à Biblioteca</button>
+                <button class="btn btn-outline" onclick="navigateTo('biblioteca')" style="margin-bottom: 2rem;">← Voltar
+                    à Biblioteca</button>
 
                 <article id="readerArticle">
                     <!-- Dynamic Reader Content -->
                 </article>
 
-                <div id="readerConnections" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                <div id="readerConnections"
+                    style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
                     <!-- Dynamic Connections -->
                 </div>
             </div>
@@ -612,27 +97,34 @@
 
         <!-- VIEW: MAPA DOS PENSAMENTOS -->
         <section id="mapa" class="view-section">
-            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Mapa dos Pensamentos</h1>
-            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Visualização interativa das conexões conceituais e temáticas entre as obras.</p>
+            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Mapa
+                dos Pensamentos</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Visualização interativa das conexões
+                conceituais e temáticas entre as obras.</p>
 
             <div id="map-container">
                 <canvas id="mindmapCanvas"></canvas>
             </div>
-            <p style="font-size:0.85rem; color: var(--text-secondary); margin-top: 0.8rem; text-align: center;">Clique nos nós para destacar as interconexões ou abrir os devaneios correspondentes.</p>
+            <p style="font-size:0.85rem; color: var(--text-secondary); margin-top: 0.8rem; text-align: center;">Clique
+                nos nós para destacar as interconexões ou abrir os devaneios correspondentes.</p>
         </section>
 
         <!-- VIEW: CONCEITOS -->
         <section id="conceitos" class="view-section">
-            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Índice de Conceitos</h1>
-            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Grandes eixos temáticos recorrentes identificados ao longo do corpus textual.</p>
+            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Índice
+                de Conceitos</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Grandes eixos temáticos recorrentes
+                identificados ao longo do corpus textual.</p>
 
             <div id="conceitosList" style="display:flex; flex-direction:column; gap: 1.5rem;"></div>
         </section>
 
         <!-- VIEW: LINHA DO TEMPO -->
         <section id="timeline" class="view-section">
-            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Linha do Tempo</h1>
-            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Evolução cronológica da escrita dos devaneios.</p>
+            <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 0.5rem;">Linha
+                do Tempo</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Evolução cronológica da escrita dos devaneios.
+            </p>
 
             <div class="timeline" id="timelineContainer"></div>
         </section>
@@ -640,12 +132,19 @@
         <!-- VIEW: SOBRE -->
         <section id="sobre" class="view-section">
             <div style="max-width: 680px; margin: 0 auto;">
-                <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 1.5rem;">Sobre a Obra</h1>
-                <p style="font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; text-align: justify;">
-                    <strong>DEVANEIOS</strong> é uma coleção autoral de ensaios, reflexões e artigos de opinião escritos por <strong>João Pedro dos Santos Marques</strong>. A obra busca investigar as crises contemporâneas a partir de múltiplas camadas: antropológica, histórica, filosófica, sociológica e literária.
+                <h1 style="font-family: var(--font-serif); font-weight:400; font-size:2.2rem; margin-bottom: 1.5rem;">
+                    Sobre a Obra</h1>
+                <p
+                    style="font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; text-align: justify;">
+                    <strong>DEVANEIOS</strong> é uma coleção autoral de ensaios, reflexões e artigos de opinião escritos
+                    por <strong>João Pedro dos Santos Marques</strong>. A obra busca investigar as crises contemporâneas
+                    a partir de múltiplas camadas: antropológica, histórica, filosófica, sociológica e literária.
                 </p>
-                <p style="font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; text-align: justify;">
-                    A plataforma funciona como um arquivo intelectual e biblioteca privada digital, preservando integralmente o texto autoral e disponibilizando ferramentas de navegação conceitual e leitura imersiva.
+                <p
+                    style="font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; text-align: justify;">
+                    A plataforma funciona como um arquivo intelectual e biblioteca privada digital, preservando
+                    integralmente o texto autoral e disponibilizando ferramentas de navegação conceitual e leitura
+                    imersiva.
                 </p>
             </div>
         </section>
@@ -655,7 +154,8 @@
     <!-- Search Modal Overlay -->
     <div class="search-modal" id="searchModal" onclick="if(event.target===this) toggleSearch()">
         <div class="search-box">
-            <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar nos Devaneios (palavras, conceitos, citações)..." oninput="executeSearch()">
+            <input type="text" class="search-input" id="searchInput"
+                placeholder="Pesquisar nos Devaneios (palavras, conceitos, citações)..." oninput="executeSearch()">
             <div class="search-results" id="searchResults"></div>
         </div>
     </div>
@@ -1065,7 +565,7 @@
             // Render Connections
             const connContainer = document.getElementById('readerConnections');
             const conexoesData = dev.conexoes.map(id => DEVANEIOS_DATA.find(d => d.id === id)).filter(Boolean);
-            
+
             connContainer.innerHTML = `
                 <h3 style="font-family: var(--font-serif); margin-bottom: 1rem;">Este devaneio conversa com:</h3>
                 <div class="grid">
@@ -1233,7 +733,7 @@
                 return;
             }
 
-            const matches = DEVANEIOS_DATA.filter(dev => 
+            const matches = DEVANEIOS_DATA.filter(dev =>
                 dev.titulo.toLowerCase().includes(query) ||
                 dev.descricao.toLowerCase().includes(query) ||
                 dev.conteudoHtml.toLowerCase().includes(query)
@@ -1283,4 +783,5 @@
         });
     </script>
 </body>
+
 </html>
