@@ -428,9 +428,115 @@ const DEVANEIOS_DATA = [
                     <p>Mas também seria absurdo fingir que todos recebem as mesmas possibilidades. Alguns nascem diante de um mundo cheio de portas. Outros passam boa parte da vida procurando uma fresta. Talvez os três livros estejam, de maneiras completamente diferentes, falando justamente sobre isso.</p>
                     <p>Uma pequena observação: não pensemos que a ideia de que &ldquo;as pessoas possuem pontos de partidas diferentes&rdquo; é um consenso entre todos. Felizmente, os individuos nascem sem saber nada e vários deles morrem no mesmo estado. Cabe aos observadores, como os leitores, avaliarem e traduzirem essa ideia para o restante do seu ciclo social.</p>
                     <p>Portanto, espero realizar com êxito essa tarefa durante esse devaneio.</p>
+                    
+                    <h2>I. O Homem que Olha para Si Mesmo</h2>
+                    <p>Brás Cubas foi, talvez, a primeira peça desse quebra-cabeça. O que mais me intrigou nele não foi propriamente alguma atitude específica, mas a maneira como ele olha para a própria vida.</p>
+                    <p>Existe uma frieza curiosa na narrativa de Brás Cubas. Depois de morto, ele poderia muito bem transformar sua existência em uma grande história heroica. Poderia selecionar os acontecimentos mais importantes, esconder suas pequenas mesquinharias, exagerar suas virtudes e construir para si mesmo uma imagem mais bonita e &ldquo;ideal&rdquo;.</p>
+                    <p>No entanto... não o faz.</p>
+                    <p>Brás Cubas parece olhar para a própria existência com uma espécie de arrogância tranquila. Como se já não tivesse qualquer obrigação de parecer melhor do que realmente foi. E talvez seja justamente essa distância que torne sua história tão engraçada.</p>
+                    <p>Ele não parece interessado em ser absolvido. Talvez Machado tenha percebido algo profundamente humano: nós não somos apenas capazes de cometer determinados erros. Somos também extraordinariamente capazes de encontrar justificativas para eles.</p>
+                    <p>Brás Cubas é vaidoso, egoísta, preocupado com prestígio, interessado na opinião dos outros e perfeitamente capaz de adaptar seus princípios às próprias conveniências. E o mais curioso é que nada disso precisa ser apresentado como uma grande tragédia. É justamente a banalidade que torna tudo mais interessante!</p>
+                    <p>O pai de Brás Cubas, por exemplo, também carrega expectativas bastante particulares sobre aquilo que o filho deveria ser. Casar, tornar-se deputado, possuir determinada posição social. Afinal, aparentemente, existem coisas que um deputado simplesmente deve fazer. Bom... é o que se imagina.</p>
+                    <p>E quem nunca encontrou algo parecido? Talvez seja isso que Machado faça tão bem: transforme comportamentos aparentemente particulares em algo reconhecível.</p>
+                    <p>Ao ler <em>Memórias Póstumas de Brás Cubas</em>, comecei a perceber uma espécie de &ldquo;brasileiridade&rdquo; espalhada pelas relações entre as personagens. O interesse, a aparência, o favor, a conveniência, o prestígio, as relações sociais e aquilo que hoje costumamos chamar de &ldquo;jeitinho&rdquo; aparecem não como invenções recentes, mas como comportamentos profundamente ligados à formação histórica da nossa sociedade.</p>
+                    <p>Essa reflexão me deixou com outra pergunta: de onde vieram esses traços?</p>
+                    <p>Vieram de Portugal? Das populações indígenas? Da escravidão? Da sociedade colonial? Da mistura entre diferentes tradições? Da União Ibérica? Das instituições que fomos construindo ao longo dos séculos?... Talvez seja uma pergunta para outra investigação.</p>
+                    <p>O importante aqui é que Machado me fez perceber algo que parece óbvio somente depois que alguém o mostra: aquilo que chamamos de &ldquo;brasileiro&rdquo; não apareceu ontem. Existe uma história por trás dos nossos comportamentos. E talvez compreender um povo exija olhar não apenas para aquilo que ele acredita ser, mas também para aquilo que aprendeu, ao longo de séculos, a fazer.</p>
+                    <p>Sim! É tão simples como ver o dia amanhecer, ao passo que a sua necessidade também é extremamente semelhante.</p>
 
-                    <h2>IV. Escolha ou Circunstância?</h2>
-                    <p>Não somos completamente livres, nem completamente determinados. Somos seres que recebem um mundo que não escolheram e precisam decidir o que farão com a margem que lhes resta.</p>
+                    <h2>II. O Homem que que Quer Corrigir o Mundo</h2>
+                    <p>Se Brás Cubas representa o indivíduo que consegue adaptar a realidade às próprias conveniências, Policarpo Quaresma parece representar quase o contrário. Quaresma quer adaptar a própria vida a um ideal. Ele é honesto, justo, correto e, principalmente, idealista.</p>
+                    <p>Acredito que justamente por isso seja tão fácil considerá-lo simultaneamente admirável, ingênuo, ridículo e trágico. Existe algo profundamente humano nessa mistura.</p>
+                    <p>Todos nós já conhecemos alguém que acredita sinceramente que determinada coisa deveria ser feita simplesmente porque é a coisa certa. Alguém que olha para uma situação e pensa que, se as pessoas fossem razoáveis, honestas ou minimamente coerentes, tudo poderia funcionar.</p>
+                    <p>O problema é que as pessoas não são obrigadas a funcionar dessa maneira! Quaresma parece descobrir isso da pior forma possível...</p>
+                    <p>Seu patriotismo é sincero, mas sua visão do país é frequentemente idealizada. Ele deseja um Brasil que corresponda àquilo que acredita que o Brasil deveria ser. E é justamente aí que Lima Barreto começa a desmontar, com uma ironia bastante cruel, as estruturas que cercam seu personagem.</p>
+                    <p>Generais que pouco possuem daquilo que o título sugere. Funcionários preocupados com burocracias. Pessoas interessadas em preservar posições. Hipocrisias escondidas atrás de discursos. Relações sociais nas quais aquilo que parece ser virtude muitas vezes serve apenas para manter determinadas aparências... Talvez <em>Triste Fim de Policarpo Quaresma</em> não tenha mudado radicalmente minha concepção de patriotismo. O que ele fez foi algo que considero talvez ainda mais interessante: ensinou-me a observar.</p>
+                    <p>Observar as pessoas. Observar as instituições. Observar as pequenas contradições. Observar aquilo que existe entre o discurso e a prática. Reparo: não que eu não o fizesse antes, mas agora é com outra lente interpretativa</p>
+                    <p>E talvez exista aqui uma distinção que vale a pena preservar: amar um país não é necessariamente idealizá-lo.</p>
+                    <p>Talvez seja justamente o contrário. Se amo alguma coisa, preciso ser capaz de enxergá-la como ela é, inclusive em suas partes desagradáveis. Caso contrário, talvez eu não esteja amando aquilo que existe, mas aquilo que imaginei.</p>
+                    <p>Isso pegou no seu coração? Bom, lembre que essa ideia serve para ideais, pessoas, relacionamentos... É multiuso!</p>
+                    <p>Quaresma queria um Brasil ideal. A realidade, como costuma fazer com certa frequência, não colaborou. E talvez essa seja uma das tragédias do idealista: não necessariamente acreditar em coisas ruins, mas acreditar que a bondade de uma ideia deveria ser suficiente para fazê-la funcionar.</p>
+                    <p>Bom... nem sempre é.</p>
+
+                    <h2>III. O Homem diante da Necessidade</h2>
+                    <p>Então veio <em>Vidas Secas</em>. E parece que Graciliano Ramos simplesmente decidiu retirar da discussão tudo aquilo que ainda era abstrato.</p>
+                    <p>Não há grandes projetos nacionais. Não há grandes discursos. Não há preocupação com prestígio!</p>
+                    <p>Há fome, há seca, há trabalho, há dinheiro, há o patrão, há o soldado... Há, essencialmente, uma família tentando sobreviver.</p>
+                    <p>E talvez seja justamente por isso que o livro tenha produzido em mim uma das reflexões mais fortes desse bloco. A família de Fabiano possui uma espécie de inocência que me chamou profundamente a atenção. Não porque sejam incapazes de compreender o mundo, mas porque muitas das suas dificuldades não são explicadas pela ausência de inteligência.</p>
+                    <p>As contas estão erradas. Mas talvez não seja a soma que esteja errada.</p>
+                    <p>São os juros. E essa pequena diferença diz muita coisa.</p>
+                    <p>Fabiano e Sinha Vitória estão inseridos em uma realidade na qual outras pessoas possuem instrumentos que eles não dominam completamente. O resultado é que aquilo que parece ser apenas uma conta matemática também se torna uma relação de poder.</p>
+                    <p>E então percebi algo que considero muito importante: nem toda desigualdade de resultado nasce de uma desigualdade de esforço.</p>
+                    <p>Algumas nascem das condições.</p>
+                    <p>Essa percepção me fez pensar inclusive em discussões contemporâneas que frequentemente tratam a pobreza como um problema exclusivamente moral. Quantas vezes ouvimos que determinada pessoa não trabalha porque não quer? Que não procura emprego porque prefere receber benefícios? Que não muda de vida porque não possui disciplina?</p>
+                    <p>Mas <em>Vidas Secas</em> me fez pensar em uma pergunta anterior: quais eram as alternativas reais daquela pessoa?</p>
+                    <p>Não as alternativas que existem teoricamente. Quero saber das alternativas reais.</p>
+                    <p>Fabiano possui uma margem muito pequena para escolher. Ele trabalha, mas continua pobre. É explorado, mas possui pouco poder para reagir. Deseja determinadas coisas, mas precisa primeiro sobreviver.</p>
+                    <p>Há uma passagem que me fez pensar especialmente nisso: quando Fabiano considera, em sua própria lógica, se vale a pena trabalhar diante daquilo que efetivamente sobra para ele.</p>
+                    <p>E então surge uma pergunta incômoda: se uma pessoa trabalha e, mesmo assim, não consegue garantir o básico, podemos simplesmente concluir que ela não trabalha o suficiente?</p>
+                    <p>Talvez algumas vezes sim. Mas talvez outras vezes a resposta seja muito mais complicada.</p>
+                    <p>Essa reflexão me fez pensar inclusive em políticas sociais contemporâneas, como o Bolsa Família. Não porque <em>Vidas Secas</em> seja uma prova a favor ou contra determinada política, mas porque a literatura nos permite experimentar uma situação humana antes de julgá-la.</p>
+                    <p>É diferente olhar para alguém de fora e dizer: &ldquo;Ele não quer trabalhar.&rdquo;</p>
+                    <p>E imaginar, ainda que por alguns minutos: &ldquo;E se trabalhar não estiver produzindo para ele aquilo que eu imagino que deveria produzir?&rdquo;</p>
+                    <p>Talvez esse seja um dos grandes poderes da literatura. Ela não necessariamente nos entrega respostas; às vezes, simplesmente torna mais difícil continuar fazendo perguntas ruins.</p>
+                    <p>E o silêncio de Fabiano, Sinha Vitória e dos meninos talvez seja uma extensão disso. Não parece ser apenas um silêncio causado pela falta de palavras. É também um silêncio de expectativas. Uma pobreza que ultrapassa o material. Porque até os desejos possuem condições.</p>
+                    <p>Sinha Vitória deseja uma cama melhor. Parece uma coisa pequena. Quase insignificante quando comparada aos grandes desejos humanos.</p>
+                    <p>Mas talvez não seja.</p>
+                    <p>Quando uma pessoa passa boa parte da vida lutando para garantir o básico, até mesmo uma cama pode representar uma ideia de dignidade, estabilidade e futuro.</p>
+                    <p>Saio pensando e afirmando que a miséria não seja apenas possuir pouco. Ela também é conseguir imaginar pouco. E isso é muito mais assustador.</p>
+                    <p>Faça uma breve reflexão agora: o Brasil atual possui um imaginário grande? Bom... pense nisso.</p>
+
+                    <h2>IV. Escolha ou Circustância?</h2>
+                    <p>Foi colocando esses três personagens lado a lado que comecei a perceber a questão que realmente havia surgido ao longo do bloco.</p>
+                    <p>Brás Cubas possui possibilidades e frequentemente escolhe mal. Policarpo Quaresma possui possibilidades e tenta utilizá-las em nome de um ideal. Fabiano possui possibilidades tão reduzidas que sua própria capacidade de escolha é constantemente comprimida pela necessidade.</p>
+                    <p>Um pode escolher e escolhe mal. Outro escolhe aquilo que acredita ser certo, mas descobre que o certo não é suficiente. O terceiro muitas vezes precisa escolher entre alternativas ruins.</p>
+                    <p>Então surge a pergunta: o brasileiro é aquilo que é por escolha, por circunstância ou pela interação entre os dois?</p
+                    <p>Minha resposta, depois dessas leituras, tende para a terceira alternativa.</p>
+                    <p>Escolhemos. Mas escolhemos dentro de alguma coisa.</p>
+                    <p>Não escolhemos onde nascemos. Não escolhemos nossa família. Não escolhemos a classe social em que começamos a vida. Não escolhemos as oportunidades que aparecem ou desaparecem diante de nós. Não escolhemos todas as experiências que nos formam.</p>
+                    <p>Mas isso também não significa que sejamos simplesmente produtos passivos dessas circunstâncias.</p>
+                    <p>Existem pessoas que superam condições extremamente adversas. Existem pessoas que recebem inúmeras oportunidades e desperdiçam todas.</p>
+                    <p>Existem pessoas que recebem pouco e constroem muito. Existem pessoas que recebem muito e constroem pouco.</p>
+                    <p>Então talvez a circunstância não seja destino, mas também não é irrelevante.</p>
+                    <p>Talvez a pergunta mais interessante não seja: &ldquo;Somos livres ou somos determinados?&rdquo;</p>
+                    <p>Talvez seja: &ldquo;Até que ponto nossas escolhas conseguem superar as circunstâncias da vida?&rdquo;</p>
+                    <p>Essa pergunta me parece muito mais honesta do que a primeira.</p>
+                    <p>Primeiro, porque ela reconhece duas coisas ao mesmo tempo.</p>
+                    <p>A primeira: nossas circunstâncias importam.; A segunda: nossas escolhas também importam.</p>
+                    <p>O problema está justamente em descobrir onde termina uma e começa a outra. É muito confortável acreditar que tudo depende de nós. Essa ideia preserva uma sensação poderosa de controle. Se alguém fracassa, basta dizer que não tentou o suficiente.</p>
+                    <p>Também é muito confortável acreditar que nada depende de nós. Nesse caso, toda responsabilidade pode ser transferida para a sociedade, para a família, para a economia, para o governo, para a história ou para qualquer outra coisa que esteja disponível no momento, como até mesmo Deus.</p>
+                    <p>As duas posições possuem algo em comum: ambas simplificam.</p>
+                    <p>E talvez os três livros tenham enriquecido um pensamento que pode ser claro para alguns e distante para outros: desconfiar das explicações simples.</p>
+                    <p>Brás Cubas lembra que o indivíduo possui responsabilidade sobre aquilo que faz, mas também é capaz de mentir para si mesmo sobre suas próprias motivações. Quaresma lembra que possuir boas intenções não significa compreender a realidade. Fabiano lembra que responsabilidade não pode ser analisada sem considerar as condições concretas nas quais uma escolha acontece.</p>
+                    <p>Talvez liberdade seja exatamente isso: a possibilidade de agir dentro de limites que não escolhemos.</p>
+                    <p>Responsabilidade é justamente responder pelo modo como utilizamos essa pequena margem que possuímos...</p>
+
+                    <h2>Conclusão — O Tamanho do Mundo que Recebemos</h2>
+                    <p>Ao terminar este bloco, percebi que havia começado procurando uma imagem do Brasil e encontrado algo mais difícil de definir.</p>
+                    <p>Não existe apenas um Brasil; existem muitos &ldquo;Brasis&rdquo;.</p>
+                    <p>E talvez também não exista um único brasileiro.</p>
+                    <p>Existe Brás Cubas. Existe Policarpo Quaresma. Existe Fabiano.</p>
+                    <p>Existem pessoas ambiciosas, vaidosas, idealistas, honestas, ingênuas, egoístas, pobres, ricas, conformadas, revoltadas, esperançosas e desesperadas.</p>
+                    <p>Talvez seja perigoso demais tentar reduzir tudo isso a uma essência nacional. Quando dizemos que &ldquo;o brasileiro é assim&rdquo;, talvez estejamos frequentemente esquecendo que comportamentos também são produzidos por circunstâncias.</p>
+                    <p>O homem não existe no vazio. Ele nasce em algum lugar, recebe determinada educação, encontra determinadas instituições, convive com determinadas pessoas, possui determinados recursos e, a partir daí, começa a fazer escolhas.</p>
+                    <p>Alguns recebem um mundo enorme, ao passo que outros recebem um mundo pequeno. Talvez uma das maiores injustiças seja julgar da mesma maneira pessoas que jamais receberam as mesmas possibilidades.</p>
+                    <p>Mas existe também uma injustiça no sentido contrário: retirar completamente do indivíduo sua capacidade de escolha e transformá-lo em mero produto das circunstâncias.</p>
+                    <p>Nenhuma dessas posições é suficiente!</p>
+                    <p>Não somos completamente livres. Também não somos completamente determinados.</p>
+                    <p>Somos alguma coisa entre essas duas coisas. Somos seres que recebem um mundo que não escolheram e, ainda assim, precisam decidir o que farão com ele.</p>
+                    <p>É nesse exato ponto em que circunstância e responsabilidade finalmente se encontram. E talvez seja também nesse pequeno espaço que exista aquilo que chamamos de caráter.</p>
+                    <p>Brás Cubas, Quaresma e Fabiano são muito diferentes entre si. Mas, colocados juntos, parecem revelar algo que vai além do Brasil.</p>
+                    <p>Revelam que o homem deseja, escolhe, se engana, sonha...</p>
+                    <p>E revelam, principalmente, que o homem não escolhe sozinho as condições nas quais precisará viver seus desejos e suas escolhas.</p>
+                    <p>Acredito que essa é a imagem do Brasil que emerge dessas três obras: um país onde indivíduos concretos tentam viver entre aquilo que desejam, aquilo que acreditam que deveriam fazer e aquilo que suas circunstâncias permitem.</p>
+                    <p>Um país de homens que desejam, homens que sonham e homens que sobrevivem. Vejo que compreender o brasileiro seja, em parte, compreender essa tensão.</p>
+                    <p>Comecei o bloco perguntando: &ldquo;O que a literatura brasileira revela sobre o Brasil e sobre nós mesmos?&rdquo;</p>
+                    <p>Termino com uma pergunta diferente: &ldquo;Até onde conseguimos ser aquilo que escolhemos ser quando não escolhemos as condições nas quais começamos?&rdquo;</p>
+                    <p>Talvez eu não tenha encontrado uma resposta..., mas talvez esse seja justamente o ponto.</p>
+                    <p>A literatura não precisa encerrar uma investigação. Às vezes, sua função é apenas abrir uma porta que ainda não sabíamos que existia. Ou, mais simples ainda, não queríamos ver...</p>
+                    <p>E, olhando pela fresta dessa porta, encontro agora uma questão inevitável:</p>
+                    <p>Se somos seres que desejam, mas nossos desejos são moldados por aquilo que somos; se somos livres, mas nossa liberdade possui limites; se nossas circunstâncias influenciam aquilo que podemos fazer, mas não eliminam completamente nossa responsabilidade... então o que devemos fazer com aquilo que desejamos?</p>
+                    <p>Talvez seja hora de descobrir...</p>
                 `,
     conexoes: ["devaneio-1", "devaneio-4"],
   },
